@@ -127,18 +127,8 @@ public class principal {
 		 resultado=micalculadora.raiz(9); 
 		 mitest.compruebavalores(3, resultado);
 		 
-		 //Raiz de un número decimal
-		 resultado=micalculadora.raiz(10.3);
-		 mitest.compruebavalores(3, resultado);
+		 //Problema con la raiz de un número negativo 
 		 
-		 //Raiz de un número próximo a 0
-		 resultado=micalculadora.raiz(0.8);
-		 mitest.compruebavalores(3, resultado);
-		 
-		 
-		//Raiz de un número con varias cifras decimales
-		 resultado=micalculadora.raiz(0.8);
-		 mitest.compruebavalores(3, resultado);
 		 
 		 
 	}

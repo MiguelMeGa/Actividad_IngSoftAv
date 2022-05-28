@@ -13,9 +13,11 @@ public class test {
 	
 	public void  compruebavalores(double a, double b)
 	{
-		
+		//double x,y;
 		double diferencia;
-	
+		//x=formato3decimales(a);
+		//y=formato3decimales(b);
+		
 		diferencia=a-b;
 		
 		if(Math.abs(diferencia)>=0.001 )
