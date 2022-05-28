@@ -48,7 +48,7 @@ public class test {
 		}
 		//En caso contrario uno se queda donde está
 		
-		vuelta=(((double)entero)/1000);
+		vuelta=(double)(entero/1000);
 		
 		return vuelta; 
 

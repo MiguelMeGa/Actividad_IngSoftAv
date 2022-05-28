@@ -36,13 +36,4 @@ public class calculadora {
 		return a*b;
 	}
 	
-	
-	//////////////////////////////////////////
-	// Método para la división
-	///////////////////////////////////////////
-	
-	public double division(double a, double b)
-	{
-		return a/b;
-	}
 }

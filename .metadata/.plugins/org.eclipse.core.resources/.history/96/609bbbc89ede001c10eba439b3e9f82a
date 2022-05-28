@@ -91,7 +91,7 @@ public class principal {
 		 
 		//Multiplicación de dos números decimales
 		 resultado=micalculadora.multiplicacion(3.123,4.24);
-		 mitest.compruebavalores(13.242, resultado);
+		 mitest.compruebavalores(13.241, resultado);
 		 
 		 
 		 /////////////////////////////////////////////
@@ -119,7 +119,9 @@ public class principal {
 		 resultado=micalculadora.division(3.2,1.5);
 		 mitest.compruebavalores(2.18, resultado);
 		 
-	
+		 
+		 
+		 
 		 
 		 
 	}
