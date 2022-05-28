@@ -31,9 +31,5 @@ public class calculadora {
 	// 		Método para la multiplicación
 	//////////////////////////////////////////
 	
-	public double multiplicacion(double a, double b)
-	{
-		return a*b;
-	}
 	
 }

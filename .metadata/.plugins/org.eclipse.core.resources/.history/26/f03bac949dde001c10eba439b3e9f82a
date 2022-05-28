@@ -112,13 +112,8 @@ public class principal {
 		 mitest.compruebavalores(-1.6, resultado);
 		 
 		 //División de 2 números con decimales
-		 resultado=micalculadora.division(3.2,1.5);
-		 mitest.compruebavalores(2.133, resultado);
-		 
-		 //Comprobación de error
-		 resultado=micalculadora.division(3.2,1.5);
-		 mitest.compruebavalores(2.18, resultado);
-		 
+		 resultado=micalculadora.division(-8,-5);
+		 mitest.compruebavalores(-1.6, resultado);
 		 
 		 
 		 

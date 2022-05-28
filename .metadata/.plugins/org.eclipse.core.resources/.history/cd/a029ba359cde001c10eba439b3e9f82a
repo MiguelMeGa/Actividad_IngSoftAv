@@ -38,7 +38,7 @@ public class principal {
 		 mitest.compruebavalores(3.457, resultado);
 	
 		 ////////////////////////////////////////
-		 //Test para la opercaión de resta
+		 //Test para las operaciones de resta
 		 /////////////////////////////////////////
 		
 		 //Resta de dos números enteros positivos 
@@ -65,7 +65,7 @@ public class principal {
 		 
 		 
 		 /////////////////////////////////////////////////
-		 //Test para las operación de  multiplicación
+		 //Test para las operaciones de la multiplicación
 		 /////////////////////////////////////////////////
 		 
 		 //Multiplicación de 2 números enteros
@@ -93,31 +93,6 @@ public class principal {
 		 resultado=micalculadora.multiplicacion(3.123,4.24);
 		 mitest.compruebavalores(13.241, resultado);
 		 
-		 
-		 /////////////////////////////////////////////
-		 //Test para la operación de división
-		 /////////////////////////////////////////////
-		 
-		 
-		 //División de 2 números enteros
-		 resultado=micalculadora.division(3,5);
-		 mitest.compruebavalores(0.6, resultado);
-		 
-		 //División de 1 entero negativo y otro entero positivo
-		 resultado=micalculadora.division(-3,5);
-		 mitest.compruebavalores(-0.6, resultado);
-		 
-		 //División de 2 enteros negativos
-		 resultado=micalculadora.division(-8,-5);
-		 mitest.compruebavalores(-1.6, resultado);
-		 
-		 //División de 2 números con decimales
-		 resultado=micalculadora.division(3.2,1.5);
-		 mitest.compruebavalores(2.133, resultado);
-		 
-		 //Comprobación de error
-		 resultado=micalculadora.division(3.2,1.5);
-		 mitest.compruebavalores(2.18, resultado);
 		 
 		 
 		 
