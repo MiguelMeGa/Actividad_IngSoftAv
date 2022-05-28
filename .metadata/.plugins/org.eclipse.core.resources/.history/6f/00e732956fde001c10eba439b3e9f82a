@@ -8,7 +8,7 @@ public class principal {
 	{
 		 double resultado; 
 		//En primer lugar se define un objeto de la clase calculadora
-		 calculadora micalculadora=new calculadora();
+		 calculadora micalculadora=new Calculadora();
 		 test mitest=new test();
 		
 		 //Se define en este punto las pruebas unitarias relacionadas con la suma
