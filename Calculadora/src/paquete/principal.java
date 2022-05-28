@@ -1,11 +1,43 @@
 package paquete;
+import java.util.Arrays;
+import org.junit.Assert;
 
 public class principal {
 
 	public static void main(String[] args) 
 	{
+		 double resultado; 
+		//En primer lugar se define un objeto de la clase calculadora
+		 calculadora micalculadora=new Calculadora();
+		 test mitest=new test();
 		
-
+		 //Se define en este punto las pruebas unitarias relacionadas con la suma
+		
+         //Suma de dos números positivos
+		 resultado=micalculadora.suma(1,2);
+		 mitest.compruebavalores(3, resultado);
+		 
+		 //Suma de número negativo y positivo
+		 resultado=micalculadora.suma(-1,2);
+		 mitest.compruebavalores(1, resultado);
+		 
+		 //Suma de un números dcon decimales
+		 resultado=micalculadora.suma(1.234,2.2);
+		 mitest.compruebavalores(3.434, resultado);
+		 
+		 
+		 //Suma de dos números decimales negativos
+		 resultado=micalculadora.suma(-1.234,-2.2);
+		 mitest.compruebavalores(-3.434, resultado);
+		 
+		 //Suma de dos números con precisión mayor a 10-3
+		 resultado=micalculadora.suma(1.23456,2.2222);
+		 mitest.compruebavalores(3.456, resultado);
+		 
+		 
+		 
 	}
+
+	
 
 }
