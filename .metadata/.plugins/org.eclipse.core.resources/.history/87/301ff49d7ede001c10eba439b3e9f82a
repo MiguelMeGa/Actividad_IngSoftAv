@@ -1,0 +1,26 @@
+package paquete;
+
+
+public class test {
+	
+	
+	public test()
+	{
+		
+		
+	}
+	
+	public void  compruebavalores(double a , double b)
+	{
+		if(a!=b)
+		{
+			 System.out.println( "Error " +a+ " distinto de "+b) ;
+		}
+		else
+		{
+			
+		}
+	   
+	}
+
+}

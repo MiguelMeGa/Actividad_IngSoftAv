@@ -1,0 +1,45 @@
+package paquete;
+import java.text.DecimalFormat;
+
+public class test {
+	
+	
+	public test()
+	{
+		
+		
+	}
+	private static final DecimalFormat df = new DecimalFormat("0.000");
+	
+	public void  compruebavalores(double a, double b)
+	{
+		double x,y;
+		x=formato3decimales(a);
+		y=formato3decimales(b);
+		
+		if(x!=y)
+		{    
+			System.out.println( "Error " +x+ " distinto de " +y);
+		}
+		else
+		{
+			
+		}
+	   
+	}
+	
+	private double formato3decimales(double num)
+	{
+		double vuelta;
+		
+		vuelta=num;
+		if()
+		
+		
+		return vuelta; 
+		
+	}
+	
+  
+
+}

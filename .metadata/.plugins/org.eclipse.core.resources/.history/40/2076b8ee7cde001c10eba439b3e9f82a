@@ -1,0 +1,20 @@
+package paquete;
+
+
+public class test {
+	
+	
+	public test()
+	{
+		
+		
+	}
+	
+	public void  compruebavalores(double a , double b)
+	{
+		assert a!=b;
+	    System.out.println( "Igualdad " +a+ " distinto de "+b) ;
+	
+	}
+
+}

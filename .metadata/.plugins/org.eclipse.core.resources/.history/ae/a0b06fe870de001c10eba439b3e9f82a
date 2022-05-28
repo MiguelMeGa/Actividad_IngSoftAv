@@ -1,0 +1,24 @@
+package paquete;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class test {
+
+	@Test
+	public static void compruebavalores( double a, double b) {
+		
+		//PAra el test  unitario
+		//fail("Not yet implemented");
+		assertEquals(a,b,0.001); //Precisión de 10-3
+	}
+	
+    
+	/*public void compruebavalores(double a, double b)
+	{
+		
+		
+	}*/
+
+}

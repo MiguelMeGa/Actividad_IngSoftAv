@@ -1,0 +1,39 @@
+package paquete;
+
+
+public class test {
+	
+	
+	public test()
+	{
+		
+		
+	}
+	
+	public void  compruebavalores(double a , double b)
+	{
+		if(a!=b)
+		{    System.out.println( "Error ");
+			 System.out.format("%.3f", a);
+			 System.out.println( " distinto de ") ;
+			 System.out.format("%.3f", b);
+		}
+		else
+		{
+			
+		}
+	   
+	}
+	
+	private boolean  compara3decimales(double a, double b)
+	{
+		boolean vuelta=false;
+		
+		
+		
+		
+		return vuelta;
+		
+	}
+
+}

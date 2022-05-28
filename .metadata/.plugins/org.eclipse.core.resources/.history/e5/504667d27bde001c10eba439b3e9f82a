@@ -1,0 +1,20 @@
+package paquete;
+
+
+public class test {
+	
+	
+	public test()
+	{
+		
+		
+	}
+	
+	public void  compruebavalores(double a , double b)
+	{
+		assert a!=b: "Error de igualdad " +a+ " distinto de "+b ;
+		
+		
+	}
+
+}

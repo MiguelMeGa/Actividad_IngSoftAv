@@ -1,0 +1,40 @@
+package paquete;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class test {
+
+	public test()
+	{
+		intialitationError();
+	}
+	
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+	
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+	
+	@Test
+	public void compruebavalores() {
+		
+		//PAra el test  unitario
+		
+		assertEquals(1,1,0.001); //Precisión de 10-3
+		//fail("Not yet implemented");
+	}
+	
+    
+	/*public void compruebavalores(double a, double b)
+	{
+		
+		
+	}*/
+
+}
