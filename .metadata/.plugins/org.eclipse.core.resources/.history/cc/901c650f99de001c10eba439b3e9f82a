@@ -28,6 +28,7 @@ public class principal {
 		 mitest.compruebavalores(3.434,resultado);
 		 
 		 
+		 
 		 //Suma de dos números decimales negativos
 		 resultado=micalculadora.suma(-1.234,-2.2);
 		 mitest.compruebavalores(-3.434, resultado);
@@ -48,11 +49,11 @@ public class principal {
 		 
 		 //Resta de dos números negativos
 		 resultado=micalculadora.resta(-3,-5);
-		 mitest.compruebavalores(2,resultado);
+		 mitest.compruebavalores(3,resultado);
 		 
 		 //Resta  de número negativo y positivo
 		 resultado=micalculadora.resta(-3,5);
-		 mitest.compruebavalores(-8,resultado);
+		 mitest.compruebavalores(8,resultado);
 		 
 		 
 		 //Resta de dos números con decimales
@@ -64,30 +65,7 @@ public class principal {
 		 mitest.compruebavalores(-3.003,resultado);
 		 
 		 
-		 /////////////////////////////////////////////////
-		 //Test para las operaciones de la multiplicación
-		 /////////////////////////////////////////////////
 		 
-		 //Multiplicación de 2 números enteros
-		 resultado=micalculadora.multiplicacion(3,5);
-		 mitest.compruebavalores(15, resultado);
-		 
-		 //Se comprueba la propiedad conmutativa 
-		 resultado=micalculadora.multiplicacion(3,5);
-		 mitest.compruebavalores(15, resultado);
-		 
-		 //Multiplicación de número positivo y negativo
-		 resultado=micalculadora.multiplicacion(-3,5);
-		 mitest.compruebavalores(-15, resultado);
-		 
-		 //Multiplicación de dos números negativos
-		 resultado=micalculadora.multiplicacion(-4,-5);
-		 mitest.compruebavalores(20, resultado);
-		 
-		 
-		//Multiplicación de dos números decimales
-		 resultado=micalculadora.multiplicacion(3.123,4.24);
-		 mitest.compruebavalores(13.241, resultado);
 		 
 		 
 		 
