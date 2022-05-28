@@ -56,13 +56,7 @@ public class principal {
 		 mitest.compruebavalores(8,resultado);
 		 
 		 
-		 //Resta de dos números con decimales
-		 resultado=micalculadora.resta(8.353,5.003);
-		 mitest.compruebavalores(3.35,resultado);
-		 
-		//Resta de dos números con decimales
-		 resultado=micalculadora.resta(2,5.003);
-		 mitest.compruebavalores(-3.003,resultado);
+		 //Resta de dos números
 		 
 		 
 		 
