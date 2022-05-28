@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files (x86)\Java_mio" version="1.8.0_231">
+<bootpath>
+<entry path="C:\Program Files (x86)\Java_mio\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\jsse.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\jce.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\lib\jfr.jar"/>
+<entry path="C:\Program Files (x86)\Java_mio\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\Java_mio\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\Java_mio\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
