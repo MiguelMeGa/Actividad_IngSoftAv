@@ -69,10 +69,10 @@ public class calculadora {
 		{
 			candidato=aprox;
 		}
-		else
-		{
+		else{
 			
 		}
+		
 		
 		//Primeramente encontramos un número que multiplicado por si mismo se acerque al número a
 		aprox1=((double)(candidato*candidato*candidato*candidato+6*(candidato*candidato)*a+(a*a)))/((double)(4*candidato*candidato*candidato+4*candidato*a));

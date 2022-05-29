@@ -133,10 +133,12 @@ public class principal {
 		 
 		 //Raiz de un número próximo a 0
 		 resultado=micalculadora.raiz(0.8);
-		 mitest.compruebavalores(0.894, resultado);
+		 mitest.compruebavalores(0.8, resultado);
 		 
 		 
-		
+		//Raiz de un número con varias cifras decimales
+		 resultado=micalculadora.raiz(0.8);
+		 mitest.compruebavalores(0.8, resultado);
 		 
 		 
 	}

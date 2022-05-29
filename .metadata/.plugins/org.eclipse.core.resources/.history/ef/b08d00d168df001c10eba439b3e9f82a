@@ -60,7 +60,7 @@ public class calculadora {
 		while((aprox*aprox)<a)
 		{ 
 			candidato=aprox;
-			aprox+=0.5;   //Se suma una unidad 
+			aprox+=1;   //Se suma una unidad 
 		}
 		dif1=Math.abs(((double)aprox*aprox)-a);
 		dif2=Math.abs(a-((double)candidato*candidato));
@@ -69,14 +69,14 @@ public class calculadora {
 		{
 			candidato=aprox;
 		}
-		else
-		{
+		else{
 			
 		}
 		
+		
 		//Primeramente encontramos un número que multiplicado por si mismo se acerque al número a
 		aprox1=((double)(candidato*candidato*candidato*candidato+6*(candidato*candidato)*a+(a*a)))/((double)(4*candidato*candidato*candidato+4*candidato*a));
-		
+		//aprox2=((double)(aprox1*aprox1*aprox1*aprox1+6*(aprox1*aprox1)*a+(a*a)))/((double)(4*aprox1*aprox1*aprox1+4*aprox1*a));
 		resultado=aprox1;
 		return resultado;
 		
