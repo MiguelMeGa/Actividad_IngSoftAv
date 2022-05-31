@@ -9,7 +9,7 @@ public class calculadora {
 	}
 	
 	////////////////////////////////////////
-	//             Método de la suma
+	//             Mï¿½todo de la suma
 	////////////////////////////////////////
 	
 	public double suma (double a, double b)
@@ -19,7 +19,7 @@ public class calculadora {
 	}
 	
 	//////////////////////////////////////////
-	// 			Método para la resta
+	// 			Mï¿½todo para la resta
 	/////////////////////////////////////////
 	
 	public double resta(double a, double b)
@@ -28,7 +28,7 @@ public class calculadora {
 	}
 	
 	///////////////////////////////////////////
-	// 		Método para la multiplicación
+	// 		Mï¿½todo para la multiplicaciï¿½n
 	//////////////////////////////////////////
 	
 	public double multiplicacion(double a, double b)
@@ -38,7 +38,7 @@ public class calculadora {
 	
 	
 	//////////////////////////////////////////
-	// Método para la división
+	// Mï¿½todo para la divisiï¿½n
 	///////////////////////////////////////////
 	
 	public double division(double a, double b)
@@ -48,36 +48,22 @@ public class calculadora {
 	
 	
 	/////////////////////////////////////////////
-	//Método para la raíz cuadrada de un número
+	//Metodo para la raiz cuadrada de un numero
 	////////////////////////////////////////////
 	
 	public double raiz(double a)
 	{
-		double resultado,aprox1=0,aprox2=0,dif1=0,dif2=0;
-		double aprox=1,candidato=1;
+		double resultado=0,dif1=0,dif2=0;
+		double aprox=0,candidato=0;
 		
 		//Se comienza por el 0
-		while((aprox*aprox)<a)
+		while((candidato*candidato)<a)
 		{ 
-			candidato=aprox;
-			aprox+=0.5;   //Se suma una unidad 
-		}
-		dif1=Math.abs(((double)aprox*aprox)-a);
-		dif2=Math.abs(a-((double)candidato*candidato));
-		
-		if(dif2<dif1)
-		{
-			candidato=aprox;
-		}
-		else
-		{
-			
+			aprox=candidato;
+			candidato+=0.0001;   //Se suma una diezmilesima 
 		}
 		
-		//Primeramente encontramos un número que multiplicado por si mismo se acerque al número a
-		aprox1=((double)(candidato*candidato*candidato*candidato+6*(candidato*candidato)*a+(a*a)))/((double)(4*candidato*candidato*candidato+4*candidato*a));
-		
-		resultado=aprox1;
+		resultado=candidato;
 		return resultado;
 		
 	}
