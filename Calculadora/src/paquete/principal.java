@@ -137,6 +137,7 @@ public class principal {
 		//			TEST RAIZ CUADRADA
 		/////////////////////////////////////////////////
 		 
+		 //Raiz de un numero entero
 		 resultado=micalculadora.raiz(9); 
 		 mitest.compruebavalores(3, resultado);
 		 
@@ -149,9 +150,10 @@ public class principal {
 		 mitest.compruebavalores(0.894, resultado);
 		 
 		 
-		
-		 
-		 
+		 //Raiz de 0
+		 resultado=micalculadora.raiz(0);
+		 mitest.compruebavalores(0, resultado);
+		  
 	}
 
 	
