@@ -12,63 +12,63 @@ public class principal {
 		
 		 //Se define en este punto las pruebas unitarias relacionadas con la suma
 		
-         //Suma de dos números positivos
+         //Suma de dos nï¿½meros positivos
 		 resultado=micalculadora.suma(1,2);
 		 mitest.compruebavalores(3, resultado);
 		 
-		 //Suma de número negativo y positivo
+		 //Suma de nï¿½mero negativo y positivo
 		 resultado=micalculadora.suma(-1,2);
 		 mitest.compruebavalores(1, resultado);
-		 //COmprobación de indicación de fallo en el test
+		 //COmprobaciï¿½n de indicaciï¿½n de fallo en el test
 		 mitest.compruebavalores(2, resultado);
 		 
 		 
-		 //Suma de dos números con decimales
+		 //Suma de dos nï¿½meros con decimales
 		 resultado=micalculadora.suma(1.234,2.2);
 		 mitest.compruebavalores(3.434,resultado);
 		 
 		 
-		 //Suma de dos números decimales negativos
+		 //Suma de dos nï¿½meros decimales negativos
 		 resultado=micalculadora.suma(-1.234,-2.2);
 		 mitest.compruebavalores(-3.434, resultado);
 		
 		 
-		 //Suma de dos números con precisión mayor a 10-3
+		 //Suma de dos nï¿½meros con precisiï¿½n mayor a 10-3
 		 resultado=micalculadora.suma(1.23456,2.2222);
 		 mitest.compruebavalores(3.457, resultado);
 	
 		 ////////////////////////////////////////
-		 //Test para la opercaión de resta
+		 //Test para la opercaiï¿½n de resta
 		 /////////////////////////////////////////
 		
-		 //Resta de dos números enteros positivos 
+		 //Resta de dos nï¿½meros enteros positivos 
 		 resultado=micalculadora.resta(3,5);
 		 mitest.compruebavalores(-2,resultado);
 		 
 		 
-		 //Resta de dos números negativos
+		 //Resta de dos nï¿½meros negativos
 		 resultado=micalculadora.resta(-3,-5);
 		 mitest.compruebavalores(2,resultado);
 		 
-		 //Resta  de número negativo y positivo
+		 //Resta  de nï¿½mero negativo y positivo
 		 resultado=micalculadora.resta(-3,5);
 		 mitest.compruebavalores(-8,resultado);
 		 
 		 
-		 //Resta de dos números con decimales
+		 //Resta de dos nï¿½meros con decimales
 		 resultado=micalculadora.resta(8.353,5.003);
 		 mitest.compruebavalores(3.35,resultado);
 		 
-		//Resta de dos números con decimales
+		//Resta de dos nï¿½meros con decimales
 		 resultado=micalculadora.resta(2,5.003);
 		 mitest.compruebavalores(-3.003,resultado);
 		 
 		 
 		 /////////////////////////////////////////////////
-		 //Test para las operación de  multiplicación
+		 //Test para las operaciï¿½n de  multiplicaciï¿½n
 		 /////////////////////////////////////////////////
 		 
-		 //Multiplicación de 2 números enteros
+		 //Multiplicaciï¿½n de 2 nï¿½meros enteros
 		 resultado=micalculadora.multiplicacion(3,5);
 		 mitest.compruebavalores(15, resultado);
 		 
@@ -80,42 +80,55 @@ public class principal {
 		 resultado=micalculadora.multiplicacion(5,5);
 		 mitest.compruebavalores(20, resultado);
 		 
-		 //Multiplicación de número positivo y negativo
+		 //Multiplicaciï¿½n de nï¿½mero positivo y negativo
 		 resultado=micalculadora.multiplicacion(-3,5);
 		 mitest.compruebavalores(-15, resultado);
 		 
-		 //Multiplicación de dos números negativos
+		 //Multiplicaciï¿½n de dos nï¿½meros negativos
 		 resultado=micalculadora.multiplicacion(-4,-5);
 		 mitest.compruebavalores(20, resultado);
 		 
 		 
-		//Multiplicación de dos números decimales
+		 //Multiplicaciï¿½n de dos nï¿½meros decimales
 		 resultado=micalculadora.multiplicacion(3.123,4.24);
 		 mitest.compruebavalores(13.242, resultado);
 		 
 		 
+		 //Multiplicacion de positivo por cero
+		 resultado=micalculadora.multiplicacion(7,0);
+		 mitest.compruebavalores(0, resultado);
+		 
+		 //Multiplicacion de negativo por cero
+		 resultado=micalculadora.multiplicacion(0,-9);
+		 mitest.compruebavalores(0, resultado);
+		 
+		 //Multiplicacion de decimal por cero
+		 resultado=micalculadora.multiplicacion(2.64,0);
+		 mitest.compruebavalores(0, resultado);
+		 
+		 
 		 /////////////////////////////////////////////
-		 //Test para la operación de división
+		 //Test para la operaciï¿½n de divisiï¿½n
 		 /////////////////////////////////////////////
 		 
 		 
-		 //División de 2 números enteros
+		 //Divisiï¿½n de 2 nï¿½meros enteros
 		 resultado=micalculadora.division(3,5);
 		 mitest.compruebavalores(0.6, resultado);
 		 
-		 //División de 1 entero negativo y otro entero positivo
+		 //Divisiï¿½n de 1 entero negativo y otro entero positivo
 		 resultado=micalculadora.division(-3,5);
 		 mitest.compruebavalores(-0.6, resultado);
 		 
-		 //División de 2 enteros negativos
+		 //Divisiï¿½n de 2 enteros negativos
 		 resultado=micalculadora.division(-8,-5);
 		 mitest.compruebavalores(1.6, resultado);
 		 
-		 //División de 2 números con decimales
+		 //Divisiï¿½n de 2 nï¿½meros con decimales
 		 resultado=micalculadora.division(3.2,1.5);
 		 mitest.compruebavalores(2.133, resultado);
 		 
-		 //Comprobación de error
+		 //Comprobaciï¿½n de error
 		 resultado=micalculadora.division(3.2,1.5);
 		 mitest.compruebavalores(2.18, resultado);
 		 
@@ -127,11 +140,11 @@ public class principal {
 		 resultado=micalculadora.raiz(9); 
 		 mitest.compruebavalores(3, resultado);
 		 
-		 //Raiz de un número decimal
+		 //Raiz de un nï¿½mero decimal
 		 resultado=micalculadora.raiz(10.3);
 		 mitest.compruebavalores(3.209, resultado);
 		 
-		 //Raiz de un número próximo a 0
+		 //Raiz de un nï¿½mero prï¿½ximo a 0
 		 resultado=micalculadora.raiz(0.8);
 		 mitest.compruebavalores(0.894, resultado);
 		 
