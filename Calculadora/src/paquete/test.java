@@ -1,15 +1,12 @@
 package paquete;
-import java.text.DecimalFormat;
 
 public class test {
 	
-	
 	public test()
 	{
-		
-		
+		//constructor de la clase test 
 	}
-	private static final DecimalFormat df = new DecimalFormat("0.000");
+	
 	
 	public void  compruebavalores(double a, double b)
 	{
@@ -22,15 +19,7 @@ public class test {
 		{    
 			System.out.println( "Error " +a+ " distinto de " +b);
 		}
-		else
-		{
-			
-		}
 	   
 	}
 	
-
-	
-  
-
 }

@@ -4,12 +4,11 @@ public class calculadora {
 
 	public calculadora()
 	{
-		
-		
+		//Constructor de la clase calculadora	
 	}
 	
 	////////////////////////////////////////
-	//             M�todo de la suma
+	//Metodo de la suma
 	////////////////////////////////////////
 	
 	public double suma (double a, double b)
@@ -19,7 +18,7 @@ public class calculadora {
 	}
 	
 	//////////////////////////////////////////
-	// 			M�todo para la resta
+	//Metodo para la resta
 	/////////////////////////////////////////
 	
 	public double resta(double a, double b)
@@ -28,7 +27,7 @@ public class calculadora {
 	}
 	
 	///////////////////////////////////////////
-	// 		M�todo para la multiplicaci�n
+	//Metodo para la multiplicacion
 	//////////////////////////////////////////
 	
 	public double multiplicacion(double a, double b)
@@ -38,7 +37,7 @@ public class calculadora {
 	
 	
 	//////////////////////////////////////////
-	// M�todo para la divisi�n
+	// Metodo para la division
 	///////////////////////////////////////////
 	
 	public double division(double a, double b)
@@ -53,13 +52,12 @@ public class calculadora {
 	
 	public double raiz(double a)
 	{
-		double resultado=0,dif1=0,dif2=0;
-		double aprox=0,candidato=0;
+		double resultado=0;
+		double candidato=0;
 		
 		//Se comienza por el 0
 		while((candidato*candidato)<a)
 		{ 
-			aprox=candidato;
 			candidato+=0.0001;   //Se suma una diezmilesima 
 		}
 		
@@ -67,6 +65,5 @@ public class calculadora {
 		return resultado;
 		
 	}
-	
-	
+
 }
